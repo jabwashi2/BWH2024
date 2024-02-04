@@ -1,0 +1,8 @@
+/*general styles*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Anonymous Pro', monospace;
+}
