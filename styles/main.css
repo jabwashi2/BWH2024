@@ -6,3 +6,27 @@ html{
 body{
     font-family: 'Anonymous Pro', monospace;
 }
+
+.fade-in{
+    animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/*home page*/
+#intro{
+    padding-top: 6em;
+    padding-left: 3em;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+#intro p {
+    padding-left: 1.2em;
+    padding-right: 3em;
+    font-size: 4em;
+}
+#title-img{
+    width: 800px;
+}

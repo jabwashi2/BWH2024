@@ -45,22 +45,22 @@ const template = document.createElement("template");
                 </a>
             </li>
             <li>
-                <a id="about" href="about.html">About</a>
+                <a id="about" href="./pages/about.html">About</a>
             </li>
             <li>
-                <a id="resources" href="resources.html">Resources</a>
+                <a id="resources" href="./pages/resources.html">Resources</a>
             </li>
             <li>
-                <a id="job-boards" href="job-boards.html">Job Boards</a>
+                <a id="job-boards" href="./pages/job-boards.html">Job Boards</a>
             </li>
             <li>
-                <a id="companies" href="companies.html">Companies</a>
+                <a id="companies" href="./pages/companies.html">Companies</a>
             </li>
             <li>
-                <a id="people" href="people.html">People</a>
+                <a id="people" href="./pages/people.html">People</a>
             </li>
             <li>
-                <a id="opportunities" href="opportunities.html">Opportunities</a>
+                <a id="opportunities" href="./pages/organizations.html">Organizations</a>
             </li>
            
             
