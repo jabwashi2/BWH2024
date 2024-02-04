@@ -18,15 +18,16 @@ body{
 /*home page*/
 #intro{
     padding-top: 6em;
-    padding-left: 3em;
+    padding-left: 6em;
+    padding-bottom: 5em;
     display: inline-grid;
     grid-template-columns: auto auto;
 }
 #intro p {
     padding-left: 1.2em;
     padding-right: 3em;
-    font-size: 4em;
+    font-size: 3em;
 }
 #title-img{
-    width: 800px;
+    width: 600px;
 }

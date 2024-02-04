@@ -5,11 +5,9 @@ const template = document.createElement("template");
             background-color: #033d4c;
             color: white;
             padding: 2.5em;
-            position: absolute; 
             bottom: 0; 
             left: 0; 
             z-index: 10;
-            width: 95.81vw;
         }
 
         .footer-child{
