@@ -40,8 +40,8 @@ const template = document.createElement("template");
     <div id="navbar">
         <ul class="nav-links">
             <li class="logo">
-                <a id="home-btn" href="index.html">
-                    <img id="logo" src ="./files/BGDH-logo.png"></img>
+                <a id="home-btn" href="/index.html">
+                    <img id="logo" src="/files/BGDH-logo.png"></img>
                 </a>
             </li>
             <li>
