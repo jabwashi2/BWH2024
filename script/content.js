@@ -1,5 +1,18 @@
 const template = document.createElement("template");
     template.innerHTML = `
+        <style>
+            a{
+                color: #63b995;
+                text-decoration: none;
+                padding: 1.3em;
+            }
+            a:hover{
+                color: #ffb300;
+            }
+            a:visited{
+                color: #e73a3a
+            }
+        </style>
         <span><a href="">???</a></span>
     `;
 

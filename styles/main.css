@@ -7,6 +7,12 @@ body{
     font-family: 'Anonymous Pro', monospace;
 }
 
+h1{
+    color: #63b995;
+    font-size: 3em;
+    padding-left: 1.5em;
+    padding-top: .6em;
+}
 .fade-in{
     animation: fadeIn 5s;
 }
@@ -30,4 +36,49 @@ body{
 }
 #title-img{
     width: 600px;
+}
+
+/*about page*/
+#about-me{
+    padding-top: 1.2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 5em;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+#about-me p{
+    font-size: 2em;
+}
+#about-me img{
+    width: 500px;
+}
+#contact-info{
+    display: row;
+    flex-direction: column;
+    padding-left: 2.7em;
+    padding-bottom: 5em;
+}
+#contact-info a{
+    font-size: 1.3em;
+}
+
+/*for the lists on each content page*/
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: 1.3em;
+    padding-bottom: .5em;
+}
+a{
+    color: #63b995;
+    text-decoration: none;
+    padding: 1.3em;
+}
+a:hover{
+    color: #ffb300;
+}
+a:visited{
+    color: #e73a3a
 }

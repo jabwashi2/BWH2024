@@ -20,6 +20,11 @@ const template = document.createElement("template");
         #links{
             float: right;
         }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
     </style>
 
     <div id="footer">
@@ -27,9 +32,9 @@ const template = document.createElement("template");
             Jabrecia Washington | Black Wings Hacks 2024
         </div>
         <div id="links" class="footer-child">
-            <a>LinkedIn | </a>
-            <a> GitHub | </a>
-            <a> Email</a>
+            <a href="https://www.linkedin.com/in/jabrecia-washington/">LinkedIn | </a>
+            <a href="https://github.com/jabwashi2"> GitHub | </a>
+            <a href="mailto:jabwashi2@gmail.com"> Email</a>
         </div>
     </div>
     `;
