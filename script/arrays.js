@@ -1,6 +1,6 @@
 // this file holds all of the arrays of info that populate the content pages
 
-export const opportunitiesArray = [
+export const organizationsArray = [
     {
         name: "Black in Gaming",
         url: "https://www.thebigfoundation.org/"

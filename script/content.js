@@ -1,8 +1,6 @@
 const template = document.createElement("template");
     template.innerHTML = `
-        <div class="content">
-            <h2>????</h2>
-        </div>
+        <span><a href="">???</a></span>
     `;
 
 // content class
@@ -38,16 +36,14 @@ class Content extends HTMLElement {
   
       // helper method
       render(){
-        this.innerHTML = `<div class="content">
-            <h1><a href="${this.url}>${this._name}</a></h1>
-        </div>`;
+        this.innerHTML = `<span><a href="${this.url}>${this._name}</a></span>`;
   
         // Is the template loaded?
         let a = this.shadowRoot.querySelector("a");
         // If so, update the shadow DOM
         if(a){
           a.href = this._url;
-          a.textContent = this.name;
+          a.textContent = this._name;
         }
     }
 }
