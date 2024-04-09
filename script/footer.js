@@ -4,7 +4,9 @@ const template = document.createElement("template");
         #footer{
             background-color: #033d4c;
             color: white;
-            padding: 2.5em;
+            padding-top: 2.5em;
+            padding-bottom: 2.5em;
+            width: 100%;
             bottom: 0; 
             left: 0; 
             z-index: 10;
@@ -15,10 +17,12 @@ const template = document.createElement("template");
         }
 
         #creator-info{
+            padding-left: 2.5em;
         }
 
         #links{
             float: right;
+            padding-right: 2.5em;
         }
 
         a{
